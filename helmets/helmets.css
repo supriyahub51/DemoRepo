@@ -1,0 +1,48 @@
+.combobox-row {
+    display: inline-flex;
+    padding: 5%;
+    align-items: center; /* align items vertically in the row */
+    width:15em;
+
+}
+.image-container {
+    position: relative;
+    /* width: 50%;* */
+}
+
+.image-container .overlay-text {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold
+}
+.image-container1 {
+    position: relative;
+    /* width: 50%;* */
+}
+.image-container1 .overlay-text {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold
+}
+.image-container2 {
+    position: relative;
+    /* width: 50%;* */
+}
+
+.image-container2 .overlay-text {
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-size: 20px;
+    font-weight: bold
+}

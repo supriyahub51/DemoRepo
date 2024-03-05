@@ -1,0 +1,22 @@
+<template>
+    <lightning-card  title="Helmet">
+        <div class="combobox-row slds-grid slds-wrap slds-col" slot="actions" >
+            <label for="lightning-combobox" style="margin: 10px;">Type</label>
+        <lightning-combobox value={values} placeholder="Select" options={optionsHelmet} onchange={handleChange} dropdown-alignment="left"></lightning-combobox>
+    </div>
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col image-container slds-m-left_medium slds-p-bottom_medium">
+                <div class="overlay-text">Half Face</div>
+                <img src={halfFace}/>
+            </div>
+            <div class="slds-col image-container slds-m-left_medium slds-p-bottom_medium">
+                <div class="overlay-text">Full Face</div>
+                <img src={fullFace}/>
+            </div>
+            <div class="slds-col image-container slds-m-left_medium slds-p-bottom_medium">
+                <div class="overlay-text">Child Helmet</div>
+                <img src={child}/>
+            </div>
+        </div>
+    </lightning-card>
+</template>
